@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/*===== variables =====*/
+$default-bgcolor: #e0e0e0;
+$card-block-default-color: #1c2c3c;
+$card-boxshadow: 0px 2px 12px 0px rgba(0, 0, 0, 0.15);
+$single-news-title-padding: 12px 0 0;
+$card-padding: 4px 0;
+$card-radius: 4px;
+$card-z-index: 999;
+$card-bgcolors: (
+        youth: #fbd304,
+        culture: #dc1454,
+        life: #14b35c,
+        entertainment: #067aef,
+        gadget: #04b494,
+        education: #1c2c3c,
+        design: #54443c
+);
+
+$list: youth culture life entertainment gadget education design;

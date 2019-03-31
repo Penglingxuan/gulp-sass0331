@@ -1,0 +1,78 @@
+@import "font-awesome/fontawesome";
+@import "font-awesome/brands.scss";
+@import "font-awesome/solid.scss";
+
+/*  樣式變數定義  */
+
+@import "var";
+
+/*  mixins定義 */
+
+@import "mixin";
+
+/*  全站統一性定義  */
+
+
+@import "global";
+.blog-post-title{
+ font-weight:bolder;
+ font-family:'fantasy';
+
+}
+.col-4{
+  height:100px;
+}
+.blog-header{
+  height:250px;
+  width:"200";
+}
+.blog-header-logo{
+background-image:url(../images/logo.png);
+background-size:50px;
+}
+.sub{
+  color:  #EE7700;
+  font-size:15px;
+}
+
+.stretched-link{
+  color:#AAAAAA;
+}
+
+.d-inline-block{
+  color:#AAAAAA;
+}
+.pb-4{
+  font-weight:bolder;
+}
+.col-6{
+   background-color:#444444;
+}
+
+.title{
+  color:  #AAAAAA ; 
+  font-size:13px;
+}
+.designer{
+  color:#FFFFFF;
+}
+
+.blog-header-logo{
+  background-size:90px;
+  text-indent: -999px;
+  overflow:hidden;
+  display:block;
+  width:90px;
+  height:200px;
+}
+.icon{
+  background-size:65px;
+  text-indent: -999px;
+  overflow:hidden;
+  display:block;
+  width:150px;
+  height:400px;
+}
+.fab{
+ size:4rem;
+}

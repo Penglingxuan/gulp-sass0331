@@ -1,0 +1,5 @@
+@charset "utf-8";
+
+@mixin box-shadow(){
+  box-shadow: $card-boxshadow;
+}
